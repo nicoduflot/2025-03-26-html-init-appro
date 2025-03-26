@@ -1,0 +1,29 @@
+/* commentaire en CSS */
+
+/* 
+sélecteur css : identifiant qui permet de sélectionner le ou les éléments qui seront imapctés 
+par le style css écrits dans sa déclaration
+
+sélecteur{
+    propriété css: valeur;
+    propriété css: valeur valeur valeur;
+    propriété css: valeur;
+    sous-propriété css: valeur;
+    sous-propriété css: valeur;
+    sous-propriété css: valeur;
+}
+
+*/
+
+/* 
+pour sélectionner l'élément div de la page definitions3.html qui possède l'id "page" 
+il faut utiliser le sélecteur suivant
+*/
+/* # indique que l'élément nommé à la suite possède un attribut id */
+/* page est la valeur de cet élément */
+/* la balise est écrite ainsi : <div id="page"></div> */
+/* div id="page"  => div#page   */
+
+#page{
+
+}
