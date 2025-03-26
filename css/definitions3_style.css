@@ -39,6 +39,15 @@ il faut utiliser le sélecteur suivant
     box-sizing: border-box;
 }
 
+a,
+a:visited{
+    color: #070707;
+}
+
+h1, h2, h3, h4, h5, h6{
+    clear: both;
+}
+
 /* déclaration classes et id */
 
 #page{
@@ -54,6 +63,30 @@ il faut utiliser le sélecteur suivant
     background-color: white;
 }
 
+/* Concept D.R.Y. Don't Reapeat Yourself */
+
+.img-article{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #999999;
+}
+
+.img-bg-dark{
+    background-color: #282828;
+}
+
+.gauche{
+    float: left;
+    margin-right: 5px;
+}
+
+.droite{
+    float: right;
+    margin-left: 5px;
+}
+
 /* Déclaration de structure */
 
 body{
@@ -61,4 +94,5 @@ body{
     padding: 0;
     background-color: rgb(234, 234, 234);
     /* background-color: #eaeaea; */
+    color: #282828;
 }
