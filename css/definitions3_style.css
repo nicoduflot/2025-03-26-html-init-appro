@@ -1,4 +1,9 @@
+/* 
+CSS 
+Cascading Style Sheet ou feuille de style en cascade
+*/
 /* commentaire en CSS */
+
 
 /* 
 sélecteur css : identifiant qui permet de sélectionner le ou les éléments qui seront imapctés 
@@ -24,6 +29,36 @@ il faut utiliser le sélecteur suivant
 /* la balise est écrite ainsi : <div id="page"></div> */
 /* div id="page"  => div#page   */
 
+/* Déclarations générales */
+
+    /*
+    le sélecteur * est un sélecteur "magique"
+    */
+
+*{
+    box-sizing: border-box;
+}
+
+/* déclaration classes et id */
+
 #page{
     width: 800px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #999999;
+    padding: 10px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+/* Déclaration de structure */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(234, 234, 234);
+    /* background-color: #eaeaea; */
 }
