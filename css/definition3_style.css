@@ -25,5 +25,5 @@ il faut utiliser le sélecteur suivant
 /* div id="page"  => div#page   */
 
 #page{
-
+    width: 800px;
 }
