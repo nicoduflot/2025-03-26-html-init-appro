@@ -44,6 +44,13 @@ a:visited{
     color: #070707;
 }
 
+h1{
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6{
     clear: both;
 }
@@ -51,7 +58,7 @@ h1, h2, h3, h4, h5, h6{
 /* déclaration classes et id */
 
 #page{
-    width: 800px;
+    max-width: 800px;
     border-width: 1px;
     border-style: solid;
     border-color: #999999;
@@ -87,6 +94,10 @@ h1, h2, h3, h4, h5, h6{
     margin-left: 5px;
 }
 
+.footer-center{
+    text-align: center;
+}
+
 /* Déclaration de structure */
 
 body{
@@ -95,4 +106,23 @@ body{
     background-color: rgb(234, 234, 234);
     /* background-color: #eaeaea; */
     color: #282828;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+header,
+footer{
+    background-color: #282828;
+    color: white;
+}
+
+footer{
+    padding: 40px 0;
+    /*
+    padding_top: 40px;
+    padding_right: 0px;
+    padding_bottom: 40px;
+    padding_left: 0px;
+    */
 }

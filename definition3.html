@@ -54,9 +54,30 @@
         <p>
             Source : <a href="https://www.similarweb.com/fr/browsers/worldwide/desktop/" target="_blank">Similarweb</a>
         </p>
+        <h2>Em vs Rem</h2>
+        <div style="font-size: 1.5em;">
+            <p>
+                le em est un cadratin, de base dans ce navigateur il est égal à 16px. Dans cette div, on a indiqué que la taille de police fait 1.5em, donc 1.5 fois 16px => 24px
+            </p>
+            <div style="font-size: 0.8em;">
+                <p>
+                    Le em se calcul non pas par la définition du em (16px) de base, mais par rapport à la taille de police définie par l'élément qui le contient. Dans cette div, on a demandé à ce que la taille de la police soit 0.8em; c'est à dire 0.8 fois la taille définie dans la div parente, donc 0.8 foix 24px => 19.2px 
+                </p>
+            </div>
+        </div>
+        <div style="font-size: 1.5rem;">
+            <p>
+                Le rem, au contraire, se basera toujours sur la définition du em de base (à la "racine" du css du navigateur), donc dans cette div on est à 1.5 fois 16px => 24px
+            </p>
+            <div style="font-size: 0.8rem;">
+                <p>
+                    Cette div est définie à 0.8 fois 16px => 14.74px car le rem se réfère à 16px (le em de base) et non pas la taille de la police de la div parente (24px)
+                </p>
+            </div>
+        </div>
     </main>
-    <footer>
-
+    <footer class="footer-center">
+        <span>&copy; DAWAN - 2025</span>
     </footer>
 </body>
 
