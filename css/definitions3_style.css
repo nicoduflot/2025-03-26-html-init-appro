@@ -39,6 +39,10 @@ il faut utiliser le sélecteur suivant
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 a,
 a:visited{
     color: #070707;
